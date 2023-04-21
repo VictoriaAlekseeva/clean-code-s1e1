@@ -5,7 +5,7 @@
   font-family: Lato, sans-serif;
 }
 
-.matrix {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.matrix .matrix__link {
+.matrix__link {
   font-family: fantasy, cursive;
 }
 
@@ -28,7 +28,7 @@
 
 }
 
-.todo-list {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -108,7 +108,7 @@ button { /* сброс стилей */
   margin: 0 0 20px;
 }
 
-.task-input#new-task {
+.task-input_new {
   width: 318px;
 }
 
@@ -169,5 +169,9 @@ button { /* сброс стилей */
 }
 
 .task-list .task-list__item.edit-task .task {
+  display: none;
+}
+
+.header__h1 {
   display: none;
 }
